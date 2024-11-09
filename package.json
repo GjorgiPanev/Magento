@@ -1,0 +1,21 @@
+{
+  "name": "magento",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "codegen": "npx playwright codegen",
+    "test": "npx playwright test && npx playwright show-report",
+    "test-smoke": "npx playwright test --grep @smoke && npx playwright show-report"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.48.2",
+    "@types/node": "^22.8.4"
+  },
+  "dependencies": {
+    "randomstring": "^1.3.0"
+  }
+}
